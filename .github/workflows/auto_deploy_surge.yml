@@ -28,4 +28,4 @@ jobs:
       - name: Setup Surge
         run: npm install --global surge
       - name: Execute Development with Surge
-        run: surge ./ SampleProject1AR.surge.sh --token ${{ secrets.PROJECT_HELLO_FROM_AR_TOKEN }}
+        run: surge ./ sampleproject1_ar.surge.sh --token ${{ secrets.PROJECT_HELLO_FROM_AR_TOKEN }}
